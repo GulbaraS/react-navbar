@@ -1,6 +1,6 @@
 
 .navbar {
-    background-color: red;
+    background-color: rgb(245, 62, 62);
     padding: 15px 0;
 
     &__container {
@@ -20,6 +20,9 @@
     &__toggle {
         display: none;
     }
+    img {
+        width: 45px;
+    }
 
     &__menu {
         display: flex;
@@ -31,6 +34,7 @@
         color: white;
         font-weight: bold;
         font-size: 16px;
+        text-transform: capitalize;
 
         &.active,
         &:hover {
