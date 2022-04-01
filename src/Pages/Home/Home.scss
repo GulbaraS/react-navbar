@@ -79,10 +79,15 @@
             transition: .2s ease;
         }
     }
-
-    @media screen and (max-witdh: 768px) {
+   
+}
+@media screen and (max-width: 768px) {
         .home {
             padding: 5vh 0;
+
+            &__container {
+                display: inline-block;
+            }
 
             &__left,
             &__right {
@@ -94,6 +99,4 @@
                 justify-content: center;
             }
         }
-    }
-
 }

@@ -54,7 +54,9 @@
             font-size: 3em;
         }
     }
-    @media screen and (max-witdh: 768px) {
+        
+}
+@media screen and (max-width: 768px) {
         .contacts {
             padding: 5vh 0;
 
@@ -77,5 +79,3 @@
             }
         }
     }
-    
-}
