@@ -33,9 +33,6 @@ h3 {
         border-radius: 7px;
         padding: 10px 25px;
 
-        &:hover {
-            font-size: 18px;
-        }
     }
 }
 
@@ -72,6 +69,22 @@ h3 {
     &__pic {
        width: 100%;   
     }
-    
-
 }    
+
+@media screen and (max-witdh: 768px) {
+    // .about {
+    //     padding: 5vh 0;
+
+        
+    // }
+ul{
+    display: inline-block;
+    list-style: none;
+
+}
+li{
+        width: 100%;
+
+    }
+
+}

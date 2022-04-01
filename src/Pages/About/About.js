@@ -29,6 +29,8 @@ function About() {
 
         <h3>Latest Works</h3>
 
+        <div className="works">
+
           <ul className="works__list">
             <li className="works__item">
               <img src={pic1} alt="flower-pic" className="works__pic" />
@@ -43,6 +45,8 @@ function About() {
               <h4>Candy Shop</h4>
             </li>
           </ul>
+
+        </div>
       </div>
     
     </section>
